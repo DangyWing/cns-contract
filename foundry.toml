@@ -1,0 +1,10 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+optimizer = true
+optimizer_runs = 20_000
+fuzz = { runs= 2000 } 
+gas_reports = ["CantoNameService"]
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
